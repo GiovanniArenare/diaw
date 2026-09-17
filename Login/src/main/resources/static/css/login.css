@@ -5,6 +5,10 @@
 }
 
 body, html {
+    background: url('/images/fundo.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -16,58 +20,38 @@ body, html {
 
 .login-container {
     display: flex;
-    width: 60vw;
+    width: 100%;
+    max-width: 400px ;
+    padding: 40px;
     height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
-    background-color: #FCFEFF;
-}
-
-.login-image-logo-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 70%;
-    border-radius: 10px 0 0 10px;
-    padding: 0;
-}
-
-.login-image-logo-container img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    align-self: flex-start;
-    border-radius: 0;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    padding: 2rem;
-    border-radius: 0 10px 10px 0;
+    background-color: rgba(46, 45, 54, 0.5);
+    backdrop-filter: blur(2px);
 }
 
 .login-title {
-    color: gray;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
     text-align: center;
     font-weight: bolder;
     margin-bottom: 1rem;
 }
 
 .login-form input {
+    background-color: rgba(46, 45, 54, 0.5);
+    color: #ccc;
     width: 100%;
     padding: 0.5rem;
     margin-top: 0.5rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1rem;
 }
 
 .login-button-container {
+    border-radius: 10px;
     width: 100%;
     display: flex;
     align-items: center;
