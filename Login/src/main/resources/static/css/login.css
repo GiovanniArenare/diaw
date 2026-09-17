@@ -48,6 +48,7 @@ body, html {
     border: 1px solid #ccc;
     border-radius: 10px;
     font-size: 1rem;
+    color: white;
 }
 
 
@@ -69,6 +70,10 @@ body, html {
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
+}
+
+.login-button-container :hover {
+    background-color: #6bb8ff;
 }
 
 .login-redirect-options {

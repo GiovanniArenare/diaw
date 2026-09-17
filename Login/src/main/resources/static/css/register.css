@@ -17,50 +17,25 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F4F7FA;
 }
 
 .register-container {
     display: flex;
     width: 100%;
     max-width: 400px ;
+    padding: 40px;
     height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
-    background-color: #FCFEFF;
+    background-color: rgba(46, 45, 54, 0.5);
+    backdrop-filter: blur(2px);
 }
 
-.register-image-logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    border-radius: 10px 0 0 10px;
-    padding: 0;
-    background-color: #EAF4F8;
-}
 
-.register-image-logo-container img {
-    max-width: 80%;
-    height: auto;
-    object-fit: contain;
-    align-self: center;
-    border-radius: 0;
-}
-
-.register-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    padding: 2rem;
-    border-radius: 0 10px 10px 0;
-}
 
 .register-title {
-    color: gray;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: bolder;
     margin-bottom: 1rem;
@@ -73,6 +48,9 @@ body, html {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    background-color: rgba(46, 45, 54, 0.5);
+    color: white;
+    
 }
 
 .register-button-container {
@@ -83,17 +61,16 @@ body, html {
 .register-button-container button {
     width: 100%;
     padding: 0.5rem;
-    background-color: #81B1C3;
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
-    border-radius: 0;          /* botão quadrado */
-    font-size: 1rem;
-    font-weight: bold;
+    border-radius: 10px;      
+    
 }
 
 .register-button-container button:hover {
-    background-color: #5a8fa2;
+    background-color: #6bb8ff;
 }
 
 .register-redirect-options {
@@ -114,6 +91,6 @@ body, html {
 }
 
 .register-redirect-options a:last-child {
-    color: #FF743C;
+    color: #6bb8ff;
     margin-left: 5px;
 }
